@@ -1,0 +1,51 @@
+<!DOCTYP HTML>
+<html>
+<head>
+<meta charset=uTF-8">
+<meta name="viewport" contect="width=device=width, initial-scale=1.0">
+<title>Seonya (여기에 본인 이름 넣기)</title>
+</head>
+<body>
+		
+		
+		<form method="get" action ="result.html" id="form">
+	<!-- <form method="post" action ="./result.html">	 -->
+	
+				<!-- <input type="" name=""><br> -->
+	
+		
+				<input type="date" name="date"><br>
+				<input type="datetime-local" name="datetime-local"><br>
+				<input type="week" name="week"><br>
+				<input type="month" name="month"><br>
+				<input type="time" name="time"><br>
+				<input type="file" name="file multiple="multiple"><br>
+				
+				<input type="email" name="email"><br>
+				<input type="image" name="image"><br>
+				<input type="number" name="number"><br> 숫자만 입력
+				<input type="range" name="range"><br> 범위
+				<input type="search" name="search"><br> 텍스트 입력하면 x 뜨는데 일반적으로 자스로 구현함
+				<input type="tel" name="tel"><br>
+				<input type="url" name="url"><br> http주소랑 같이 써야함
+				
+				
+	
+	
+				
+				<br><br>
+				<input type="button" id="Save" value="전송하기" onclick="here()">
+				
+				
+				<script type="text/javascript">
+				function here(){
+					alert("전송한다?")
+					document.getElementById("form").submit();
+				}
+				</script>
+				
+				
+				
+		</form>
+</body>
+</html>

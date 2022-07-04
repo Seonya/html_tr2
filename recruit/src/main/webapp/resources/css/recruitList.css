@@ -1,0 +1,135 @@
+@font-face{
+   font-family:"nt";
+   font-style:normal;
+   src:url(../font/notosans/NotoSansKR-Medium.otf) format('opentype');
+}
+
+
+*{
+	box-sizing:border-box;
+	font-family:"nt";
+	/* padding 으로 사이즈 늘어남 방지 */
+}
+
+ul{
+	list-style:none;
+}
+
+
+html, body{
+	padding:0;
+	margin:0;
+	font-size:14px;
+	background:#fff;
+	font-family:nt;
+}
+
+header {
+	width:100%;
+	height:96px;
+	border-bottom:3px solid #20ff51;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.header {
+	height:100%;
+	width:960px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.header-left-cont {
+	height:50px;
+	display:flex;
+	align-items:end;
+}
+
+.header-left{
+	font-family:"nt";
+	font-size:25px;
+	display:flex;
+	align-items:center;
+}
+
+
+.header-right {
+	height:50px;
+	display:flex;
+	align-items:end;
+	font-size:13px;
+}
+.header-right > span {
+	margin-left:10px;
+	cursor:pointer;
+}
+
+main {
+	width:100%;
+	height:calc(100% - 96px);
+	display:flex;
+	justify-content:center;
+}
+.main{
+	width:960px;
+	height:100%;
+	display:flex;
+	justify-content:center;
+}
+
+.navi {
+	width:220px;
+	height:100%;
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+}
+
+.container-right {
+	width:calc(100% - 220px);
+	height:100%;
+}
+
+.profile {
+	width:100%;
+	height:200px;
+	background:grey;
+	display:flex;
+	flex-direction:column;
+}
+
+.profile-img > img {
+	width:100%;
+	height:200px;
+	object-fit:cover;
+}
+
+.message {
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+	font-size:20px;
+}
+
+.input-table {
+	margin-top:50px;
+	border-radius:5px;
+	background:#DDF1E9;
+	padding:10px;
+}
+
+.input {
+	boder:1px sold grey;
+	margin:0;
+	padding:0;
+	border:1px solid grey;
+	border-radius:5px;
+}
+
+li {
+	margin:3px;
+	border-bottom:1px solid grey;
+	cursor:pointer;
+}

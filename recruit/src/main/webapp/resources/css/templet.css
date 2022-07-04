@@ -10,6 +10,10 @@
 	/* padding 으로 사이즈 늘어남 방지 */
 }
 
+ul{
+	list-style:none;
+}
+
 
 html, body{
 	padding:0;

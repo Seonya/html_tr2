@@ -17,23 +17,59 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	@RequestMapping(value = "/recruitRegFrom", method = RequestMethod.GET)
+	public String recruitRegFrom() {
 	
-	/**
-	 * Simply selects the home view to render by returning its name.
-	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
-		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
-		return "home";
+		return "recruitRegFrom";
 	}
 	
-}
+	@RequestMapping(value = "/recruitRegFrom2", method = RequestMethod.GET)
+	public String recruitRegFrom2() {
+	
+		return "recruitRegFrom2";
+	}
+	
+	@RequestMapping(value = "/recruitList", method = RequestMethod.GET)
+	public String recruitList() {
+	
+		return "recruitList";
+	}
+	
+	@RequestMapping(value = "/recruitModFrom", method = RequestMethod.GET)
+	public String recruitModFrom() {
+	
+		return "recruitModFrom";
+	}
+	
+	@RequestMapping(value = "/recruitView", method = RequestMethod.GET)
+	public String recruitView() {
+	
+		return "recruitView";
+	}
+	
+	@RequestMapping(value = "/resume", method = RequestMethod.GET)
+	public String resume() {
+	
+		return "resume";
+	}
+	
+	@RequestMapping(value = "/recruitFrom", method = RequestMethod.GET)
+	public String recruitFrom() {
+	
+		return "recruitFrom";
+	}
+	
+	@RequestMapping(value = "/resume", method = RequestMethod.GET)
+	public String resume() {
+	
+		return "resume";
+	}
+	
+	@RequestMapping(value = "/result", method = RequestMethod.GET)
+	public String result() {
+	
+		return "result";
+	}
+	
+	
+} 

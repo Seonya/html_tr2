@@ -1,18 +1,22 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap'); */
-
-
-
-html,body {
-	padding:0px;
-	margin:0px;	
+html, body {
+	padding: 0px;
+	margin: 0px;
 }
 
+table {
+	border: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+}
 
-p {
-	
-background:black;
-color:red;
-height:50px;
-width:1000px;
-
+tr, th, td {
+	border: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	text-align: content;
+	height: 50px;
+	vertical-align: middle;
 }

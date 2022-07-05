@@ -15,7 +15,74 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>	
+<style>
+/* 입사지원서 */
+html,body{
+padding:0;
+margin:0;
+}
 
+/* <basic> */
+th, tr, td {
+	border: 1px solid black;
+	font-size: 12px;
+}
+
+th, td {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+thead {
+	background: #C2DEF3;
+}
+
+ul {
+	margin-top: 20px;
+	margin-bottom: 1px;
+	padding-left: 20px;
+}
+
+
+table {
+width:100%;
+
+}
+/* <basic> */
+.header table{
+	height:30px;
+}
+
+.title {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* resume */
+.resume.tb_1 td, tr {
+	height: 10px;
+	padding: 0;
+}
+
+/* resume */
+
+.resume {
+	font-size: 8px;
+	width:700px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	margin:auto;
+}
+
+.title {
+	font-size: 20px;
+}
+</style>
 
 </head>
 <body>
@@ -221,6 +288,8 @@
 				</table>
 			</div>
 		</div>
+		
+		<input type="submit">
 	</form>
 </body>
 </html>

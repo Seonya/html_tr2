@@ -3,7 +3,7 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>입사자현황</title>
 	
 	<!-- CSS only -->
 <!-- CSS only -->

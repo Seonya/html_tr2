@@ -3,7 +3,7 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>입사자현황</title>
 	
 	<!-- CSS only -->
 <!-- CSS only -->
@@ -31,6 +31,8 @@
 				<span>홈</span>
 				<span style="color:grey;">|</span>
 				<span>관리자메뉴</span>
+				<span style="color:grey;">|</span>
+				<span>로그아웃</span>
 			</div>
 		</div>		
 	</header>
@@ -39,9 +41,8 @@
 		<section class="main">
 		
 		
-			<%@ include file="include/default.jsp" %>
 		
-			<!-- <section class="navi">
+			<section class="navi">
 				
 				<div class="profile">
 					<div class="profile-img">
@@ -64,10 +65,38 @@
 					</ul>				
 				</div>
 				
-			</section> -->
-			<section class="container-right"> 
-				<div class="right">
+			</section>
+			<section class="container-right">
+				<h3 style="margin:0px 0px 15px 15px;"><i class="fa-solid fa-users"></i>지원자현황</h3> 
+				
+				<div class="applies_form">
+					<div class="applier-profile-img">
+						<img class="img" style="object-fit:contain; width:170px;"  src="./resources/image/user_dum.png">
+					</div>
+					<div class="applier-info">
+						<table class="applier-info-table">
+							<tr style="font-weight:900;">
+								<td style="height:40px; width:40px;">번호</td>
+								<td style="width:1px;">|</td>
+								<td style="width:50px;">이름</td>
+								<td style="width:1px;">|</td>
+								<td style="width:60px;">지원분야</td>
+								<td style="width:1px;">|</td>
+								<td style="width:60px;">경력구분</td>
+							</tr>
+							<tr style="font-weight:100;">
+								<td style="height:40px; width:40px;">2</td>
+								<td style="width:1px;">|</td>
+								<td style="width:50px;">황선야</td>
+								<td style="width:1px;">|</td>
+								<td style="width:60px;">CTO</td>
+								<td style="width:1px;">|</td>
+								<td style="width:60px;">경력(70년)</td>
+							</tr>
+						</table>
+					</div>
 				</div>
+				
 			</section>
 		</section>
 		

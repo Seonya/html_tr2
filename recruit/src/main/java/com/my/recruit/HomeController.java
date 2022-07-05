@@ -22,12 +22,7 @@ public class HomeController {
 	
 		return "recruitRegFrom";
 	}
-	
-	@RequestMapping(value = "/recruitRegFrom2", method = RequestMethod.GET)
-	public String recruitRegFrom2() {
-	
-		return "recruitRegFrom2";
-	}
+
 	
 	@RequestMapping(value = "/recruitList", method = RequestMethod.GET)
 	public String recruitList() {
@@ -45,12 +40,6 @@ public class HomeController {
 	public String recruitView() {
 	
 		return "recruitView";
-	}
-	
-	@RequestMapping(value = "/resume", method = RequestMethod.GET)
-	public String resume() {
-	
-		return "resume";
 	}
 	
 	@RequestMapping(value = "/recruitFrom", method = RequestMethod.GET)

@@ -1,0 +1,127 @@
+@font-face{
+   font-family:"nt";
+   font-style:normal;
+   src:url(../font/notosans/NotoSansKR-Medium.otf) format('opentype');
+}
+
+
+*{
+	box-sizing:border-box;
+	/* padding 으로 사이즈 늘어남 방지 */
+}
+
+ul{
+	list-style:none;
+}
+
+
+html, body{
+	padding:0;
+	margin:0;
+	font-size:14px;
+	font-family:nt;
+	position:relative;
+	background: rgb(2,0,36);
+	background: linear-gradient(302deg, rgba(2,0,36,1) 0%, rgba(219,144,151,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+
+main {
+	width:860px;
+	height:532px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	box-shadow: 6px 6px 12px -5px rgb(88 88 88);
+	transform: translate(-50%, -50%);
+	background:grey;
+	
+	display:flex;
+}
+
+
+.left_sec {
+	width:328px;
+	height:100%;
+	background:#88dcc9;
+	position:relative;
+}
+
+.logo {
+	width:100%;
+	position:absolute;
+	top:203px;
+	left:50%;
+	transform: translate(-50%, -50%);
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.logo span {
+	margin-top: 10px;
+}
+
+.text{
+	color:rgb(2,0,36);
+	font-size:20px;
+}
+
+.fa-google{
+	font-size:100px;
+	color:rgb(2,0,36);
+}
+
+.right_sec {
+	width:532px;
+	height:100%;
+	background: rgb(2,0,36);
+	background: linear-gradient(312deg, rgba(2,0,36,1) 0%, rgba(57,75,95,1) 80%);
+	
+	position:relative;
+}
+
+.login_box {
+	width:100%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+#login {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%
+}
+
+a {
+	border:none;
+}
+
+.log {
+	border-radius:7px;
+	margin-bottom:3px;
+	border:none;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.log_text{
+	color:#fff;
+}
+
+#signin {
+	border:none;
+	background:#fff;
+	width:165.5px;
+	height: 30px;
+	border-radius:7px;
+}
+

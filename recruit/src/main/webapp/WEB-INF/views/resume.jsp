@@ -232,6 +232,13 @@
 				</table>
 			</div>
 		</div>
+		<div class="bot_menu">
+			<div class="bot_button">
+				<span class="button" data-page="form_fix"><i class="fa-solid fa-pen"></i>수정</span>
+				<span class="button" data-page="form_exit"><i class="fa-solid fa-xmark"></i>창닫기</span>				
+			</div>	
+		</div>
+		
 	</form>
 </body>
 </html>

@@ -23,9 +23,20 @@ html, body{
 	font-family:nt;
 }
 
+.menu {
+	display:flex;
+	flex-direction:column;
+}
+
 span {
 	background:grey;
-	width:100px;
-	height:100px;
-	block:block;
+	width:300px;
+	margin:10px;
+	cursor:pointer;
+}
+
+span:hover{
+	
+	color:yellow;
+	
 }

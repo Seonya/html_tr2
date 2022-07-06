@@ -19,20 +19,15 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>	
 
-<script src="./resources/js/mainhome.js/"></script>
+<script src="./resources/js/.js"></script>
 
 
 </head>
 <body>
+	<header>
+		<div>입사지원 현황</div>
+	</header>
 
-	<div class="menu">
-		<span data-pa="home">home.jsp</span>
-		<span data-pa="recruitFrom">recruitFrom.jsp</span>
-		<span data-pa="recruitList">recruitList.jsp</span>
-		<span data-pa="recruitModFrom">recruitModFrom.jsp</span>
-		<span data-pa="recruitRegFrom.">recruitRegFrom.jsp</span>
-		<span data-pa="recruitView">recruitView.jsp</span>
-	</div>
 
 </body>
 </html>

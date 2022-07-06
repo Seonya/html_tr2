@@ -3,7 +3,7 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>입사자현황</title>
+	<title>이력서 수정하기</title>
 	
 	<!-- CSS only -->
 <!-- CSS only -->
@@ -20,7 +20,7 @@
 </head>
 <body>
 <h1>
-	Hello world!  
+이력서 수정페이 
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>

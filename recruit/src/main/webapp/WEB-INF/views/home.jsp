@@ -33,6 +33,11 @@
 		<span data-pa="recruitRegFrom.">recruitRegFrom.jsp</span>
 		<span data-pa="recruitView">recruitView.jsp</span>
 	</div>
+	
+	
+	
+	
+	
 
 </body>
 </html>

@@ -4,6 +4,7 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
@@ -12,21 +13,27 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-/**
- * Handles requests for the application home page.
- */
+import com.my.recruit.DaoUser.DaoUser;
+import com.my.recruit.VoUser.VoUser;
+
+
 @Controller
 public class HomeController {
 	
-	@RequestMapping(value = "/home", method = RequestMethod.GET)
-	public String home(Model model) {
-	
-		model.addAttribute("now_menu","home");
-		
-		return "home";
-	}
+//	@Resource(name="DaoUser")
+//	private DaoUser daoUser;
+//	
+//	@RequestMapping(value = "/dbpr", method = RequestMethod.GET)
+//	public @ResponseBody VoUser user() {
+//		
+//
+//		VoUser user =daoUser.selectUser();
+//		
+//		return user;
+//	}
 	
 	@RequestMapping(value = "/recruitRegFrom", method = RequestMethod.GET)
 	public String recruitRegFrom(Model model) {

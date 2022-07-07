@@ -186,13 +186,11 @@ li:hover {
 
 .applies_form{
 	height:120px;
-	weight:100%;
+	width:100%;
 	background:#DDF1E9;
 	border-radius:15px;
 	padding:15px;
 	text-align:center;
-	display:flex;
-	align-items:center;
 	margin-bottom:30px;
 	box-shadow: 6px 6px 12px -5px rgb(88 88 88);
 	
@@ -207,8 +205,6 @@ li:hover {
 }
 
 .applier-profile-img .img {
-	object-fit:cover;
-	width:80px;
 	height:80px;
 }
 
@@ -219,7 +215,6 @@ li:hover {
 
 
 .applier-profile-img > img{
-	object-fit:cover;
 	width:200px;
 	height:200px;
 }

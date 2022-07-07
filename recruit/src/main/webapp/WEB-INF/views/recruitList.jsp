@@ -61,15 +61,7 @@
 					</div>
 					<div class="applier-info">
 						<table class="applier-info-table" style="margin:15px; width:430px; border-top:none;">
-							<tr style="font-weight:900;">							
-								<td style="height:40px; width:40px;">번호</td>
-								<td style="width:1px;">|</td>
-								<td style="width:50px;">이름</td>
-								<td style="width:1px;">|</td>
-								<td style="width:60px;">지원분야</td>
-								<td style="width:1px;">|</td>
-								<td style="width:60px;">경력구분</td>
-							</tr>
+						
 							<tr style="font-weight:100;">					
 								<td style="height:40px; width:40px;">2</td>
 								<td style="width:1px;">|</td>
